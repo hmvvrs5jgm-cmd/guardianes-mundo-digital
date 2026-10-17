@@ -1,0 +1,137 @@
+{
+  "speakers": {
+    "bit": { "name": "Bit", "portrait": "portrait_bit", "color": "0x2fd6b5" },
+    "alex": { "name": "Alex", "portrait": "portrait_alex", "color": "0xffb347" },
+    "luma": { "name": "Luma", "portrait": "portrait_luma", "color": "0xf6c945" },
+    "tiko": { "name": "Tiko", "portrait": "portrait_tiko", "color": "0xff8a65" },
+    "glitch": { "name": "Glitch", "portrait": "portrait_glitch", "color": "0xb07bff" },
+    "narrator": { "name": "", "portrait": null, "color": "0x9fe8da" }
+  },
+
+  "l1_intro": [
+    { "s": "bit", "e": "happy", "t": "¡Por fin llegaste! Soy Bit, explorador de Conexia." },
+    { "s": "bit", "e": "think", "t": "Algo extraño está pasando: algunos caminos muestran señales falsas y nuestros amigos ya no saben cuáles seguir." },
+    { "s": "alex", "t": "¿Cómo puedo ayudar?" },
+    { "s": "bit", "e": "happy", "t": "¡Investigando! Los buenos guardianes observan, piensan y piden ayuda cuando hace falta." },
+    { "s": "bit", "e": "neutral", "t": "Muévete con {MOVE} y salta con {JUMP}. ¡Vamos al Árbol Mensajero!" }
+  ],
+
+  "l1_tree_before": [
+    { "s": "bit", "e": "surprised", "t": "¡Mira! Tres mensajes llegaron volando al Árbol Mensajero." },
+    { "s": "bit", "e": "think", "t": "Algunos podrían ser trampas de Glitch. Examinémoslos con calma antes de decidir." }
+  ],
+
+  "l1_tree_after": [
+    { "s": "bit", "e": "happy", "t": "El Árbol Mensajero está tranquilo otra vez. ¡Ya revisamos todos sus mensajes!" }
+  ],
+
+  "l1_m1_done": [
+    { "s": "bit", "e": "happy", "t": "¡Lo hiciste genial! Reconociste todas las señales de engaño." },
+    { "s": "bit", "e": "neutral", "t": "Esta lupa revela lo que Glitch esconde. Úsala con {TOOL} cuando algo te parezca sospechoso." }
+  ],
+
+  "l1_glitch_fork": [
+    { "s": "glitch", "t": "¡Jijiji! ¿Quién quiere premios GRATIS? ¡Por aquí, por aquí, sin pensarlo!" },
+    { "s": "bit", "e": "surprised", "t": "¡Era Glitch! Cambió las señales del camino." },
+    { "s": "bit", "e": "think", "t": "Antes de elegir una ruta, usa la Lupa de la Verdad con {TOOL}." }
+  ],
+
+  "l1_fork_revealed": [
+    { "s": "bit", "e": "happy", "t": "¡La lupa mostró la verdad! La señal de premios era falsa." },
+    { "s": "bit", "e": "neutral", "t": "Y apareció un camino de cristal sobre el abismo. ¡Ese es el sendero seguro!" }
+  ],
+
+  "l1_need_lupa": [
+    { "s": "bit", "e": "think", "t": "El abismo es muy ancho... Quizás hay un camino escondido. Primero revisemos los mensajes del Árbol Mensajero." }
+  ],
+
+  "l1_chest_before": [
+    { "s": "bit", "e": "surprised", "t": "¡El Cofre de los Secretos! Dicen que guarda la luz que abre el camino." },
+    { "s": "bit", "e": "think", "t": "Para abrirlo hay que ordenar la información: ¿qué se puede compartir y qué hay que proteger?" }
+  ],
+
+  "l1_chest_after": [
+    { "s": "bit", "e": "happy", "t": "El cofre ya está abierto. ¡Su luz deshizo las enredaderas de estática!" }
+  ],
+
+  "l1_vines_blocked": [
+    { "s": "bit", "e": "think", "t": "Estas enredaderas de estática bloquean el paso. La luz del Cofre de los Secretos podría deshacerlas." }
+  ],
+
+  "l1_m2_done": [
+    { "s": "bit", "e": "happy", "t": "¡El cofre se abrió! Su luz está deshaciendo las enredaderas de estática." },
+    { "s": "bit", "e": "neutral", "t": "Recuerda: piensa antes de compartir. Incluso los datos pequeños cuentan." }
+  ],
+
+  "l1_tiko_before": [
+    { "s": "tiko", "t": "Hola... Perdón, no estoy de muy buen ánimo." },
+    { "s": "tiko", "t": "Alguien que no conozco me escribe todos los días. Me dice cosas que me hacen sentir incómodo..." },
+    { "s": "tiko", "t": "Y me pidió que no le cuente a nadie. Ahora el puente de confianza se rompió y no sé qué hacer." },
+    { "s": "bit", "e": "think", "t": "Tiko, gracias por contarnos. No es tu culpa. Vamos a reconstruir el puente juntos." }
+  ],
+
+  "l1_tiko_after": [
+    { "s": "tiko", "t": "¡Gracias! Hoy mismo hablaré con mi mamá. Ya me siento más tranquilo." }
+  ],
+
+  "l1_m3_done": [
+    { "s": "luma", "t": "Soy Luma, guardiana de la confianza. Tiko, fuiste muy valiente al contarlo." },
+    { "s": "luma", "t": "Pedir ayuda siempre es una buena decisión. Nunca estás solo ni sola." },
+    { "s": "tiko", "t": "¡El puente está completo! Gracias, guardián." },
+    { "s": "bit", "e": "happy", "t": "¡Crucemos! El pedestal del cristal debe estar al otro lado." }
+  ],
+
+  "l1_bridge_blocked": [
+    { "s": "bit", "e": "think", "t": "El puente está roto. Tiko parece necesitar ayuda; hablemos con él." }
+  ],
+
+  "l1_pedestal": [
+    { "s": "bit", "e": "surprised", "t": "¡El Pedestal del Conocimiento! Los tres fragmentos que ganamos están brillando..." },
+    { "s": "bit", "e": "happy", "t": "¡Unámoslos!" }
+  ],
+
+  "l1_pedestal_missing": [
+    { "s": "bit", "e": "think", "t": "Faltan fragmentos del cristal. Cada misión del bosque nos da uno." }
+  ],
+
+  "l1_crystal_done": [
+    { "s": "bit", "e": "happy", "t": "¡El Cristal del Conocimiento está completo! Mira, el portal se está encendiendo." },
+    { "s": "bit", "e": "neutral", "t": "Cuando estés listo, entra al portal con {INTERACT}." }
+  ],
+
+  "l1_hidden_chest": [
+    { "s": "bit", "e": "surprised", "t": "¡Un cofre escondido! Tu ojo atento lo encontró." }
+  ],
+
+  "l1_checkpoint_first": [
+    { "s": "bit", "e": "neutral", "t": "Este farol es un punto de control. Si tropiezas, volveremos aquí. ¡Sin preocupaciones!" }
+  ],
+
+  "l1_brambles": [
+    { "s": "bit", "e": "surprised", "t": "¡Cuidado con las zarzas de estática! Sáltalas con {JUMP}." }
+  ],
+
+  "l1_fallen": [
+    { "s": "bit", "e": "think", "t": "¡Uf! Volvamos al último farol y probemos otra vez. Cada intento nos enseña algo." }
+  ],
+
+  "l1_complete": [
+    { "s": "bit", "e": "happy", "t": "¡Lo lograste, guardián! El Bosque de las Señales vuelve a brillar." },
+    { "s": "luma", "t": "Aprendiste a observar, a cuidar tu información y a pedir ayuda. Esa es la fuerza de un guardián." }
+  ],
+
+  "l2_soon": [
+    { "s": "bit", "e": "surprised", "t": "¡Llegamos al Laberinto de las Trampas!" },
+    { "s": "bit", "e": "think", "t": "Los guardianes de Conexia todavía están construyendo este mundo. ¡Muy pronto podremos explorarlo!" }
+  ],
+
+  "l3_soon": [
+    { "s": "bit", "e": "surprised", "t": "¡La Fortaleza de los Secretos!" },
+    { "s": "bit", "e": "think", "t": "Sus puertas aún están cerradas. Muy pronto podremos entrar." }
+  ],
+
+  "ending": [
+    { "s": "bit", "e": "happy", "t": "¡Lo conseguimos! Pero descubrí algo: no era la espada, ni el escudo, ni la llave lo que nos hacía guardianes." },
+    { "s": "luma", "t": "Nuestra verdadera fuerza es saber reconocer riesgos, protegernos, respetar a los demás y pedir ayuda." }
+  ]
+}

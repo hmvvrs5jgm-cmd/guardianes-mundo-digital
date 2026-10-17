@@ -1,0 +1,101 @@
+{
+  "items": {
+    "lupa": {
+      "name": "Lupa de la Verdad",
+      "icon": "item_lupa",
+      "description": "Revela señales falsas, caminos ocultos y trucos de Glitch.",
+      "usage": "Úsala con {TOOL} cerca de lugares sospechosos.",
+      "level": 1,
+      "usable": true
+    },
+    "escudo": {
+      "name": "Escudo Antiphishing",
+      "icon": "item_escudo",
+      "description": "Desactiva portales engañosos y premios falsos.",
+      "usage": "Se obtiene en el Laberinto de las Trampas.",
+      "level": 2,
+      "usable": true
+    },
+    "espada": {
+      "name": "Espada de los Límites",
+      "icon": "item_espada",
+      "description": "No sirve para atacar a nadie: corta cadenas de presión y abre rutas seguras.",
+      "usage": "Se obtiene en el Laberinto de las Trampas.",
+      "level": 2,
+      "usable": true
+    },
+    "capa": {
+      "name": "Capa de Privacidad",
+      "icon": "item_capa",
+      "description": "Protege tu información y te ayuda a cruzar zonas de mensajes hirientes.",
+      "usage": "Se obtiene en el Laberinto de las Trampas.",
+      "level": 2,
+      "usable": true
+    },
+    "llave": {
+      "name": "Llave Maestra",
+      "icon": "item_llave",
+      "description": "Abre las puertas de la Fortaleza cuando usas dos pasos de verificación.",
+      "usage": "Se obtiene en la Fortaleza de los Secretos.",
+      "level": 3,
+      "usable": true
+    }
+  },
+  "crystals": {
+    "crystal_knowledge": {
+      "name": "Cristal del Conocimiento",
+      "icon": "crystal_knowledge",
+      "description": "Brilla cuando reconoces señales de engaño y cuidas tu información.",
+      "level": 1
+    },
+    "crystal_protection": {
+      "name": "Cristal de la Protección",
+      "icon": "crystal_protection",
+      "description": "Brilla cuando pones límites y te proteges de trampas digitales.",
+      "level": 2
+    },
+    "crystal_trust": {
+      "name": "Cristal de la Confianza",
+      "icon": "crystal_trust",
+      "description": "Brilla cuando proteges tus cuentas y pides ayuda a quien confías.",
+      "level": 3
+    }
+  },
+  "badges": {
+    "badge_truthseeker": {
+      "name": "Detector de Engaños",
+      "icon": "badge_truthseeker",
+      "description": "Reconociste las señales de un mensaje engañoso."
+    },
+    "badge_secretkeeper": {
+      "name": "Guardasecretos",
+      "icon": "badge_secretkeeper",
+      "description": "Clasificaste tu información y aprendiste a protegerla."
+    },
+    "badge_bridge": {
+      "name": "Puente de Confianza",
+      "icon": "badge_bridge",
+      "description": "Ayudaste a un amigo a pedir apoyo a una persona adulta de confianza."
+    },
+    "badge_sharpeye": {
+      "name": "Ojo Atento",
+      "icon": "badge_sharpeye",
+      "description": "Encontraste el cofre escondido con la Lupa de la Verdad."
+    },
+    "badge_explorer": {
+      "name": "Explorador Digital",
+      "icon": "badge_explorer",
+      "description": "Recuperaste el Cristal del Conocimiento en el Bosque de las Señales."
+    },
+    "badge_protector": {
+      "name": "Protector Digital",
+      "icon": "badge_protector",
+      "description": "Recuperaste el Cristal de la Protección en el Laberinto de las Trampas."
+    },
+    "badge_guardian": {
+      "name": "Guardián Digital",
+      "icon": "badge_guardian",
+      "description": "Uniste los tres cristales y devolviste el equilibrio a Conexia."
+    }
+  }
+}
